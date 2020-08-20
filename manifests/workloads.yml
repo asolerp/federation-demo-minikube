@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: accounts
-          image: timwebill/accounts:latest
+          image: asolerp/accounts:latest
 
 ---
 kind: Deployment
@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
         - name: reviews
-          image: timwebill/reviews:latest
+          image: asolerp/reviews:latest
 
 ---
 kind: Deployment
@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: products
-          image: timwebill/products:latest
+          image: asolerp/products:latest
 
 ---
 kind: Deployment
@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: inventory
-          image: timwebill/inventory:latest
+          image: asolerp/inventory:latest
 
 ---
 kind: Deployment
@@ -90,4 +90,4 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: timwebill/gateway:latest
+          image: asolerp/gateway:latest
